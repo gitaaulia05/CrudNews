@@ -1,1 +1,6 @@
-Aplikasi dapat di unduh dalam folder <a href="app/build/outputs/apk/debug/app-debug.apk>LINK APLIKASI</a
+## 📱 Unduh Aplikasi
+
+  aplikasi dapat di unduh melalui tautan berikut:
+
+[**Download APK (Debug Build)**](app/build/outputs/apk/debug/app-debug.apk)
+
