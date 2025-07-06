@@ -2,7 +2,6 @@
 <resources>
 <!--    <style name="Theme.CrudNews" parent="Theme.AppCompat.Light.NoActionBar" />-->
 
-    <style name="Theme.CrudNews" parent="Theme.MaterialComponents.Light.NoActionBar"/>
-
+    <style name="Theme.CrudNews" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
 
 </resources>

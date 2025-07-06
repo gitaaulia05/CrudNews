@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "405958676954-98js4ti1i5dp4rtgajjpsn6f4hfoefri.apps.googleusercontent.com",
+          "client_id": "405958676954-s34bjc8k9u1arrvgk5ogltj7v0mlm9mi.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.crudnews",
-            "certificate_hash": "e793bd7c8cd8cbdc15820b8608b5eec5afb19cec"
+            "certificate_hash": "5a2b45bc5e9b3d41f775940b5ae37e78f59812d1"
           }
         },
         {

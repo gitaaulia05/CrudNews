@@ -32,6 +32,17 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
+
+        emailEditText = findViewById(R.id.email)
+        passwordEditText = findViewById(R.id.password)
+        nameEditText = findViewById(R.id.name)
+        registerButton = findViewById(R.id.registerButton)
+        progressBar= findViewById(R.id.progressBar)
+
+        mAuth = FirebaseAuth.getInstance()
+        db = FirebaseFirestore.getInstance()
+
         registerButton.setOnClickListener {
             val email = emailEditText.text.toString().trim()
             val password = passwordEditText.text.toString().trim()
