@@ -8,6 +8,21 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        getByName("debug") {
+            storeFile =
+                file("C:\\Users\\Gita Aulia Hafid\\Documents\\UTB\\Semester 4\\Pemrograman Mobile 1\\news.jks")
+            storePassword = "hahaha9*"
+            keyAlias = "newskey"
+            keyPassword = "hahaha9*"
+        }
+        create("release") {
+            storeFile = file("C:\\Users\\Gita Aulia Hafid\\Documents\\UTB\\Semester 4\\Pemrograman Mobile 1\\news.jks")
+            storePassword = "hahaha9*"
+            keyAlias = "newskey"
+            keyPassword = "hahaha9*"
+        }
+    }
     namespace = "com.example.crudnews"
     compileSdk = 35
 
@@ -24,6 +39,9 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+          //  applicationIdSuffix = ".release"
+            isDebuggable = false
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -48,6 +66,8 @@ dependencies {
     implementation("com.google.firebase:firebase-firestore")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation ("com.google.android.material:material:1.9.0")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.android.gms:play-services-auth")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)

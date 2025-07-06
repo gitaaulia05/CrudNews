@@ -12,7 +12,20 @@
           "package_name": "com.example.crudnews"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "405958676954-98js4ti1i5dp4rtgajjpsn6f4hfoefri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.crudnews",
+            "certificate_hash": "e793bd7c8cd8cbdc15820b8608b5eec5afb19cec"
+          }
+        },
+        {
+          "client_id": "405958676954-8r9ctnro02ahmsb812836sqdahiaglt9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyA1q5LbqNm0s-2YTmZ8Ieuq8Sm4Zbo1YU8"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405958676954-8r9ctnro02ahmsb812836sqdahiaglt9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

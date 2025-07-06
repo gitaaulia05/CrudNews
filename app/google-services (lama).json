@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405958676954",
+    "project_id": "pm1-sesi10",
+    "storage_bucket": "pm1-sesi10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405958676954:android:9ebebe2b0fb6abac7db0e3",
+        "android_client_info": {
+          "package_name": "com.example.crudnews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1q5LbqNm0s-2YTmZ8Ieuq8Sm4Zbo1YU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
